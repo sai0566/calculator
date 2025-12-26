@@ -1,0 +1,100 @@
+ body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100%;
+    margin: 59px;
+    justify-content: center;
+    background-image: linear-gradient(to right,rgb(246, 122, 246),rgb(238, 120, 120));
+    }
+h1{
+    color: black;
+}
+#container1{
+    border: 3px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+    max-width: 90%;
+    box-shadow: 0px 20px 40px black;
+    background-color: bisque;
+
+    }
+#buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    grid-gap: 10px;
+    margin-top: 12px;
+    }
+input{
+    width: 315px;
+    height: 50px;
+    font-size: 20px;
+    text-align: right;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    border: 2px solid black;
+    box-shadow: inset 0 2px 5px rgba(0,0,0,0.6);
+    font-weight: 600;
+    }
+.button{
+    width: 70px;
+    height: 70px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color:darkviolet;
+    color: white;
+    }
+.button1{
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 90px;
+    background-color: rgb(248, 113, 113);
+    color: white;
+    }
+.button2{
+    width: 160px;
+    height: 70px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 90px;
+    margin-left:0px;
+    background-color: cornflowerblue;
+    color: white;
+    }
+#add{
+    background-color: rgb(244, 61, 97);
+    color: white;
+}
+#sub{
+    background-color: rgb(41, 41, 241);
+    color: white;
+}
+#mul{
+    background-color: rgb(244, 66, 235);
+    color: white;
+}
+#clear{
+    background-color: red;
+    color: white;
+}
+#div{
+    background-color: orange;
+}
+button:hover{
+    filter: brightness(1.1);
+    box-shadow: 5px 5px 25px red;
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+button:active{
+    transform: scale(0.97);
+}
